@@ -1,2 +1,5 @@
+cffi==2.1.1
+cryptography==50.0.1
 mpmath==1.3.0
+pycparser==3.0
 sympy==1.14.0
