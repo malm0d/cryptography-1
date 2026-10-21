@@ -3,3 +3,4 @@ cryptography==50.0.1
 mpmath==1.3.0
 pycparser==3.0
 sympy==1.14.0
+urllib3==2.8.0
