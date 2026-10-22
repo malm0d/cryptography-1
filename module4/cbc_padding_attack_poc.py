@@ -5,7 +5,7 @@ import urllib.parse
 # CBC rand IV decryption
 # m[0] <- D(k, c[0]) XOR IV
 # m[1] <- D(k, c[1]) XOR c[0]
-# m[1]' <- m[1] XOR (g XOR pad), if g is correct.
+# m[1]' <- D(k, c[1]) XOR c[0] XOR (g XOR pad), if g is correct.
 #
 # We are given that first ciphertext block is IV.
 
